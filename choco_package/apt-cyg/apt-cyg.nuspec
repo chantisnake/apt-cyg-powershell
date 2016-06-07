@@ -9,10 +9,10 @@
     <authors>chantisnake</authors>
     <owners>chantisnake</owners>
     <summary>a package manager of cygwin</summary>
-    <description>__REPLACE__MarkDown_Okay 
+    <description> using apt-cyg right inside of powershell 
     </description>
     <projectUrl></projectUrl>
-    <packageSourceUrl></packageSourceUrl>
+    <packageSourceUrl>https://github.com/chantisnake/apt-cyg-powershell/tree/master/choco_package</packageSourceUrl>
     <!--<projectSourceUrl></projectSourceUrl>
     <docsUrl></docsUrl>
     <mailingListUrl></mailingListUrl>
@@ -21,12 +21,12 @@
     <copyright></copyright>
     <licenseUrl>https://opensource.org/licenses/GPL-3.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/apt-cyg.png</iconUrl>-->
+    <iconUrl>https://github.com/chantisnake/apt-cyg-powershell/raw/master/Cygwin.ico</iconUrl>
     <!--<dependencies>
       <dependency id="" version="__VERSION__" />
       <dependency id="" />
     </dependencies>-->
-    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
+    <releaseNotes></releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>
