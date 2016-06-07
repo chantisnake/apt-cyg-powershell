@@ -11,7 +11,7 @@
     <summary>a package manager of cygwin</summary>
     <description> using apt-cyg right inside of powershell 
     </description>
-    <projectUrl></projectUrl>
+    <projectUrl>https://github.com/chantisnake/apt-cyg-powershell</projectUrl>
     <packageSourceUrl>https://github.com/chantisnake/apt-cyg-powershell/tree/master/choco_package</packageSourceUrl>
     <!--<projectSourceUrl></projectSourceUrl>
     <docsUrl></docsUrl>
