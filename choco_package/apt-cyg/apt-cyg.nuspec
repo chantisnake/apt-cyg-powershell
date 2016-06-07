@@ -22,10 +22,9 @@
     <licenseUrl>https://opensource.org/licenses/GPL-3.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://github.com/chantisnake/apt-cyg-powershell/raw/master/Cygwin.ico</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="__VERSION__" />
-      <dependency id="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="Cygwin" />
+    </dependencies>
     <releaseNotes></releaseNotes>
     <!--<provides></provides>-->
   </metadata>
