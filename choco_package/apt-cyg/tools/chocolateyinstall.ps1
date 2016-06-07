@@ -1,4 +1,5 @@
-﻿$local_key =  'HKLM:\SOFTWARE\Cygwin\setup'
+﻿# find cygwin
+$local_key =  'HKLM:\SOFTWARE\Cygwin\setup'
 $local_key6432 =  'HKLM:\SOFTWARE\Wow6432Node\Cygwin\setup'
 
 
@@ -17,10 +18,21 @@ if ($cygRoot -eq $null) {
 
 $cygwinbash = "$cygRoot\bin\bash.exe"
 
+# install
 Invoke-Expression "$cygwinbash --login -c 'lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg'"
 Invoke-Expression "$cygwinbash --login -c 'install apt-cyg /bin'"
-Invoke-Expression "$cygwinbash --login -c 'apt-cyg'"
 
+# clean up
+try {
+  Write-Host 'tring to clean up'
+  Remove-Item "$HOME/apt-cyg" -Force
+}
+catch {
+  Write-Host 'file is already cleaned up'
+}
+
+
+# choco stuff
 $path = Join-Path $(Split-Path -parent $MyInvocation.MyCommand.Definition) 'apt-cyg.ps1'
 
 Install-ChocolateyPowershellCommand -PackageName 'apt-cyg' -PSFileFullPath $path
