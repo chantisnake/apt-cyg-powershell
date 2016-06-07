@@ -4,8 +4,8 @@
 
 Well, if you are a fan of Cygwin, you probably don't need this, just use Cygwin.
 
-On the other hand if you are a fan of powershell, like me, 
-you can have the continent of apt-cyg together with tons of great functionality that powershell provides.
+On the other hand if you are a fan of powershell,
+you can have the convenient of apt-cyg together with tons of great functionality that powershell provides.
 
 Or there are some program require dependency on cygwin (like [clion](https://www.jetbrains.com/clion/)),
 Then you can install all the required package of cygwin without actually jumping into cygwin
